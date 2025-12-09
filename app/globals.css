@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: #0A1A35;
+}
+
+body {
+  font-family: theme("fontFamily.body");
+  background-color: #0A1A35;
+  color: #FFFFFF;
+}
+
+main {
+  width: 100%;
+}
+
+.section {
+  @apply py-16 px-6 lg:px-12;
+}
+
+.container {
+  @apply mx-auto max-w-6xl;
+}
